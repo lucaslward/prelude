@@ -20,3 +20,4 @@ projectile-bookmarks.eld
 session*
 tramp
 .mc-lists.el
+.cask

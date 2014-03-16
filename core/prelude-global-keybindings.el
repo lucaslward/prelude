@@ -60,7 +60,7 @@
 (global-set-key (kbd "C-x M-m") 'shell)
 
 ;; If you want to be able to M-x without meta
-(global-set-key (kbd "C-x C-m") 'execute-extended-command)
+(global-set-key (kbd "C-x C-m") 'smex)
 
 ;; A complementary binding to the apropos-command (C-h a)
 (define-key 'help-command "A" 'apropos)
@@ -111,19 +111,8 @@
   [remap exchange-point-and-mark]
   'prelude-exchange-point-and-mark)
 
-(global-set-key (kbd "C-c SPC") 'ace-jump-mode)
-(global-set-key (kbd "C-x SPC") 'ace-jump-mode-pop-mark)
-
-;; key chords
-(require 'key-chord)
-
-(key-chord-define-global "jj" 'ace-jump-word-mode)
-(key-chord-define-global "jl" 'ace-jump-line-mode)
-(key-chord-define-global "jk" 'ace-jump-char-mode)
-(key-chord-define-global "JJ" 'prelude-switch-to-previous-buffer)
-(key-chord-define-global "uu" 'undo-tree-visualize)
-
-(key-chord-mode +1)
+(global-set-key (kbd "C-c j") 'ace-jump-mode)
+(global-set-key (kbd "s-.") 'ace-jump-mode)
 
 (provide 'prelude-global-keybindings)
 
