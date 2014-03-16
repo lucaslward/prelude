@@ -17,3 +17,7 @@
 
 ;; forward or backward by word will go within 'sub-words' like camel case, etc
 (global-subword-mode 1)
+
+(require 'tramp)
+
+(custom-set-variables '(coffee-tab-width 2))
