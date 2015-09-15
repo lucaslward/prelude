@@ -8,10 +8,6 @@
 (setq projectile-use-native-indexing t)
 (setq projectile-enable-caching t)
 
-;; YAS
-(require 'yasnippet)
-(yas-global-mode 1)
-
 ;; Never insert tabs
 (set-default 'indent-tabs-mode nil)
 
@@ -21,3 +17,6 @@
 (require 'tramp)
 
 (custom-set-variables '(coffee-tab-width 2))
+
+(setq mac-command-modifier 'meta)
+(setq mac-option-modifier 'super)
