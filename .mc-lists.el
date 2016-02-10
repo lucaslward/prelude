@@ -3,6 +3,7 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        c-electric-paren
         kill-region
         minibuffer-keyboard-quit
         sp--self-insert-command
