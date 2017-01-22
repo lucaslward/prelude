@@ -37,8 +37,8 @@
 (setq-default js2-strict-missing-semi-warning nil)
 (setq-default js2-strict-trailing-comma-warning t) ;; jshint does not warn about this now for some reason
 
-(require 'js2-refactor)
-(js2r-add-keybindings-with-prefix "C-c C-m")
+;; (require 'js2-refactor)
+;; (js2r-add-keybindings-with-prefix "C-c C-m")
 
 ;; I need to keep experimenting with swank-js. According to the github repo, the
 ;; guy had trouble getting it to work with require-js, so he was only using it
