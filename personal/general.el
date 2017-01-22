@@ -30,6 +30,9 @@
 
 (add-hook 'web-mode-hook  'my-web-mode-hook)
 
+;; Requiring prelude evil mode turns it on.
+(evil-mode -1)
+
 ;; (defun stephen-mode ()
 ;;   "Stephen Friendly mode"
 ;;   (interactive)
