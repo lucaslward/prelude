@@ -29,3 +29,10 @@
   )
 
 (add-hook 'web-mode-hook  'my-web-mode-hook)
+
+;; (defun stephen-mode ()
+;;   "Stephen Friendly mode"
+;;   (interactive)
+;;   (if )
+;;   (key-chord-mode -1)
+;;   (evil-mode +1))
