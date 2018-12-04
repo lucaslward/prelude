@@ -30,6 +30,10 @@
 
 (add-hook 'web-mode-hook  'my-web-mode-hook)
 
+;; turn on rbenv so ruby works correctly
+;; (require 'rbenv)
+;; (global-rbenv-mode)
+
 ;; Requiring prelude evil mode turns it on.
 (evil-mode -1)
 
@@ -39,3 +43,18 @@
 ;;   (if )
 ;;   (key-chord-mode -1)
 ;;   (evil-mode +1))
+
+;; (message "%s" exec-path)
+;; (message "%s" eshell-path-env)
+
+;; (setq eshell-path-env (getenv "PATH"))
+
+;; (setq rbenv--initialized nil)
+
+;; (rbenv--setup)
+
+;; some python nonsense
+;; (require 'virtualenvwrapper)
+;; (setq venv-location "/Users/lucas/.venv")
+;; (venv-initialize-interactive-shells) ;; if you want interactive shell support
+;; (venv-initialize-eshell) ;; if you want eshell support

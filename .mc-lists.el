@@ -4,6 +4,7 @@
 (setq mc/cmds-to-run-for-all
       '(
         c-electric-paren
+        helm-M-x
         kill-rectangle
         kill-region
         minibuffer-keyboard-quit
